@@ -1,5 +1,70 @@
-#header-img{
-    height: 100px;
-    width: 100px;
+/* 1. navbar alway at top of viewport
+2. at least one media query
+3. use css flexbox at least once  */
+
+body{
+  margin: 0; 
 }
 
+p{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  text-align: center;
+
+}
+
+#header{
+  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border: solid 2px grey;
+}
+
+#header-img{
+  height: 50px;
+}
+
+#nav-bar{
+  padding: 15px;
+  margin: 15px;
+}
+
+.nav-link{
+ text-decoration: none;
+}
+
+#main{
+  /* background-image: url("../pucked/pucked-cover-half.3png"); */
+  background-color:#d5c9ba;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+#about{
+  display: inline-block;
+  width: 50%;
+  
+}
+
+#cover{
+ 
+}
+
+#signUp{
+  background-color: white;
+  padding: 35px;
+}
+
+#video{
+  padding: 50px;
+}
+
+#more{
+  background-color: white;
+  padding: 35px;
+}

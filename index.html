@@ -1,48 +1,75 @@
+<!-- https://youtu.be/biqsq93G7ZQ -->
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>PUCKED</title>
 	<link rel=stylesheet type=text/css href=./styles/styles.css>
 </head>
 <body>
 	<script type=text/javascript src=./js/script.js></script>
 
 	<div class="container">
-		<div id="header">
-			<div class="headerImage-container">
-				<img id="header-img" src="./images/2fe.png">
-			</div>
-			<nav id="nav-bar" >
-				<ul>
-					<li>
-						<a class="nav-link" href="info">Who are we</a>
-					</li>
-					<li>
-						<a class="nav-link" href="video">How it works</a>
-					</li>
-					<!-- <li>
-						<a class="nav-link" href="#">Pricing</a>
-					</li> -->
-					<li>
-						<a class="nav-link" href="form">Contact</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		<div id="info" class="section">
 
+		<header id="header">
+			<!-- logo -->
+			<img src="./pucked/pucked-white.png" id="header-img" />
+			<nav id="nav-bar">
+				<a class="nav-link" href="#about">About</a>
+				<a class="nav-link" href="#signUp">Sign Up</a>
+				<a class="nav-link" href="#video">Preview</a>
+				<a class="nav-link" href="#more">More</a>
+
+			</nav>
+		</header>
+
+		<div id="main">
+
+				<img id="cover" src="pucked/pucked-cover-large.png" />
+			
+				<div id="about">
+					<p>With a famous NHL player for a stepbrother, Violet Hall is well acquainted with the playboy reputation of many a
+						hockey star. So of course she isn’t i nterested in legendary team captain Alex Waters or his pretty, beat-up face
+						and
+						rock-hard six-pack abs. When Alex inadvertently obliterates Violet’s misapprehension regarding the inferior
+						intellect of hockey players, he becomes much more than just a hot body with the face to match.</p>
+			
+					<p>Suffering from a complete lapse in judgment, Violet discovers just how good Alex is with the hockey stick in his
+						pants. Violet believes her night of orgasmic magic with Alex is just that: one night. But Alex starts to call. And
+						text. And email and send extravagant—and quirky—gifts. Suddenly, he’s too difficult to ignore, and nearly
+						impossible
+						not to like.</p>
+			
+					<p>The problem is, the media portrays Alex as a total player, and Violet doesn’t want to be part of the game.</p>
+				</div>
+
+				<div id="signUp">
+					<div id="form-container">
+						<p>Sign up for updates about the Pucked Updates!!</p>
+						<form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+							<input id="email" type="email" name="email" required>
+							<input type="submit" value="Send">
+						</form>
+					</div>
+				</div>
+			
+			<div id="video">
+				<p>Trailer Preview of Pucked - created by Dani Sorrell</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/biqsq93G7ZQ" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</div>
+
+			<div id="more">
+				<p>For more information</p>
+				<a href="https://www.amazon.com/gp/product/B00WLD27N2/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00WLD27N2&linkCode=as2&tag=natisaboojun-20&linkId=5HJEC5AEL5OFQTBI">Shop The Book</a>
+				<a href="https://www.amazon.com/gp/product/B074C66WZH/?ie=UTF8&%2AVersion%2A=1&%2Aentries%2A=0">Shop The Serie</a>
+			</div>
+
+			</div>
 		</div>
-		<div id="video" class="section">
-			<!-- embedded video -->
-		</div>
-		<div id="form" class="section">
-			<form id="form" action="mailto:https://www.freecodecamp.com/email-submit" method="post">
-				<input id="name" class="input-field" type="text" placeholder="Enter your name" required>
-				<input id="email" class="input-field" type="email" placeholder="Enter your email" required>
-				<input id="submit" class="submit-btn" type="submit" value="submit">
-			</form>
-		</div>
-	</div>
+
+	</div><!-- end container -->
 
 </body>
 </html>
